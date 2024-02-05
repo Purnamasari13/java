@@ -1,0 +1,176 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 24, 2024, 1:11:21 AM
+    Author     : Purnamasari siregar
+*/
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+
+.semi-top-form{
+    -fx-background-color: #00678e;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color: #ff4653;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.minimize:hover{
+    -fx-background-color: #ddd;
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right, #00678e, #003a5e);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-alignment: center-left;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+
+.logout{
+    -fx-background-color: #00678e;
+    -fx-background-radius: 20px;
+    -fx-cursor:hand;
+}
+.logout:hover{
+    -fx-background-color: #003a5e;
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.7), 5,0,0,0);
+}
+
+.card{
+    -fx-background-color: linear-gradient(to right, #003a5e, #001325);
+    -fx-background-radius: 4px;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #e0e0e0, #d9d9d9);
+    -fx-border-color: linear-gradient(to bottom right, #00678e, #003a5e);
+    -fx-border-width: .4px;
+}
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 1px;
+}
+
+.add-btn{
+    -fx-background-color: #00678e; /* Blue-gray */
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.add-btn:hover{
+    -fx-background-color: #003a5e; /* Darker blue-gray */
+}
+
+.update-btn {
+    -fx-background-color: #FFA500; /* Vivid orange */
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-cursor: hand;
+}
+
+.update-btn:hover {
+    -fx-background-color: #FF6900; /* Darker vivid orange */
+}
+
+.clear-btn {
+    -fx-background-color: #9B59B6; /* Purple */
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-cursor: hand;
+}
+
+.clear-btn:hover {
+    -fx-background-color: #8E44AD; /* Darker purple */
+}
+
+.delete-btn{
+    -fx-background-color: #C00000; /* Maroon */
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+
+.delete-btn:hover{
+    -fx-background-color: #7B0000; /* Darker maroon */
+}
+
+.search{
+    -fx-background-color: linear-gradient(to bottom, #e0e0e0, #d9d9d9);
+    -fx-background-radius: 4px;
+    -fx-border-color: linear-gradient(to bottom right, #00678e, #003a5e);
+    -fx-border-radius: 4px;
+    -fx-font-size: 13px;
+    -fx-font-family: Tahoma;
+    -fx-padding: 0px 0px 0px 28px;
+    -fx-border-width: .8px;
+}
+
+.search:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 1.8px;
+}
+
+.table-view{
+    -fx-border-color: linear-gradient(to bottom right, #00678e, #003a5e);
+    -fx-border-width: 2px;
+    -fx-padding: 0px;
+    -fx-border-radius: 8px;
+    -fx-background-color: transparent;
+}
+
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #00678e, #003a5e);
+    -fx-background-radius: 8px 8px 0px 0px;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+}

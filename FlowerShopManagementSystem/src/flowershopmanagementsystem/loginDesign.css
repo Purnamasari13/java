@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+/* 
+    Created on : Jan 22, 2024, 7:46:01 PM
+    Author     : Purnamasari siregar
+*/
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right, #0093af, #00678e);
+    -fx-border-color: #000;
+    -fx-border-width:.4px 0px .4px .4px;
+}
+.right-form{
+    -fx-background-color: #fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color: #ff4653;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #e0e0e0, #d9d9d9);
+    -fx-background-radius: 2px;
+    -fx-border-width: .2px;
+    -fx-border-color: #000;
+    -fx-font-size: 13px;
+    -fx-font-family: Tahoma;
+}
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-color: linear-gradient(to bottom right, #003059, #001325);
+    -fx-border-width: .8px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom, #2b547e, #1a3d5a);
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-cursor:hand;
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #335c8a, #1f3956);
+}
